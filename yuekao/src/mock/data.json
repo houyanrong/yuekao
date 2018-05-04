@@ -1,0 +1,61 @@
+ {
+     "data": {
+         "page": [{
+             "datalist": [{
+                 "tit": "Paisley欧式天丝四件套",
+                 "img": "../images/img01.jpg",
+                 "money": "￥599",
+                 "index": "../page/shop1.html"
+             }, {
+                 "tit": "透气呼吸纱四件套",
+                 "img": "../images/img02.jpg",
+                 "money": "￥459",
+                 "index": "../page/shop2.html"
+             }, {
+                 "tit": "唤自然迷雾雨淋四件套",
+                 "img": "../images/img03.jpg",
+                 "money": "￥399",
+                 "index": "../page/shop3.html"
+             }, {
+                 "tit": "唤自然仲夏椰香四件套",
+                 "img": "../images/img04.jpg",
+                 "money": "￥299",
+                 "index": "../page/shop4.html"
+             }, {
+                 "tit": "Paisley欧式天丝四件套",
+                 "img": "../images/img01.jpg",
+                 "money": "￥599",
+                 "index": "../page/shop1.html"
+             }, {
+                 "tit": "透气呼吸纱四件套",
+                 "img": "../images/img02.jpg",
+                 "money": "￥459",
+                 "index": "../page/shop2.html"
+             }, {
+                 "tit": "唤自然迷雾雨淋四件套",
+                 "img": "../images/img03.jpg",
+                 "money": "￥399",
+                 "index": "../page/shop3.html"
+             }, {
+                 "tit": "唤自然仲夏椰香四件套",
+                 "img": "../images/img04.jpg",
+                 "money": "￥299",
+                 "index": "../page/shop4.html"
+             }]
+         }, {
+             "xq": [{
+                 "content": "Paisley欧式天丝四件套的详情页",
+                 "img": "../images/img01.jpg"
+             }, {
+                 "content": "透气呼吸纱四件套的详情页",
+                 "img": "../images/img02.jpg"
+             }, {
+                 "content": "唤自然迷雾雨淋四件套的详情页",
+                 "img": "../images/img03.jpg"
+             }, {
+                 "content": "唤自然仲夏椰香四件套的详情页",
+                 "img": "../images/img04.jpg"
+             }]
+         }]
+     }
+ }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../icon/iconfont.css">
+    <link rel="stylesheet" href="../css/shop.css">
+</head>
+
+<body>
+    <header>
+        <a href="http://localhost:8081/"><i class="iconfont">&#xe653;</i></a>
+        <p><span class="bg">商品</span><span>详情</span></p>
+        <i class="iconfont">&#xe648;</i>
+    </header>
+    <section>
+        <div><img src="../images/img01.jpg" alt="">
+            <p>Paisley欧式天丝四件套</p>
+        </div>
+        <div class="xq">Paisley欧式天丝四件套详情</div>
+    </section>
+</body>
+
+</html>
+<script src="../icon/iconfont.js"></script>
+<script src="../js/lib/jquery-1.8.3.js"></script>
+<script>
+    $(function() {
+        $('header p span').on('click', function() {
+            var ind = $(this).index();
+            $(this).addClass('bg').siblings().removeClass('bg');
+            $('section').children('div').eq(ind).show().siblings().hide();
+        })
+    })
+</script>

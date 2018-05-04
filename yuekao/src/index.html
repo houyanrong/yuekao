@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <link rel="stylesheet" href="./js/lib/swiper.css">
+    <link rel="stylesheet" href="./sass/style.css">
+</head>
+
+<body>
+    <header>
+        <i class="iconfont">&#xe653;</i>
+        <span>居家</span>
+        <i class="iconfont">&#xe729;</i>
+    </header>
+    <p class="tab"><span class="line">床品件套</span><span>被枕</span><span>家具</span><span>收纳</span><span>布艺软装</span>
+    </p>
+    <section>
+        <div class="shop">
+            <script type="text/x-handlebars-template" id="shop">
+                {{#each this}}
+                <a href="{{index}}">
+                    <dl>
+                        <dt><img src="{{img}}" alt=""> </dt>
+                        <dd>{{tit}}</dd>
+                        <dd class="red">{{money}}</dd>
+                    </dl>
+                </a>
+                {{/each}}
+            </script>
+        </div>
+        <div class="box">被枕</div>
+        <div class="box">家具</div>
+        <div class="box">收纳</div>
+        <div class="box">布艺软装</div>
+
+    </section>
+
+</body>
+<script src="./icon/iconfont.js"></script>
+<script src="./js/lib/require.js" data-main="./js/page/main.js"></script>
+
+</html>
